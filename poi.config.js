@@ -1,5 +1,8 @@
 module.exports = {
     cleanOutDir: process.env.NODE_ENV === 'production',
+    css: {
+        extract: false
+    },
     entry: {
         realtime:
             process.env.NODE_ENV === 'production'
