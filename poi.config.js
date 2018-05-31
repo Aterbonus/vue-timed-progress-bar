@@ -6,6 +6,10 @@ module.exports = {
                 ? 'src/TimerProgressBar.vue'
                 : 'src/index.js'
     },
+    filename: {
+        js: 'vue-timer-progress-bar.js',
+        css: 'vue-timer-progress-bar.css'
+    },
     devServer: {
         contentBase: ['src/static-no-copy']
     },

@@ -2,7 +2,7 @@
   "name": "@aterbonus/vue-timer-progress-bar",
   "version": "0.0.1",
   "description": "A Timer Progress Bar Component for Vue",
-  "main": "index.js",
+  "main": "dist/vue-timer-progress-bar.js",
   "scripts": {
     "start": "poi src/index.js",
     "build": "poi build src/TimerProgressBar.vue",
