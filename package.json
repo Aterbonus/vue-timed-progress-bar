@@ -1,6 +1,6 @@
 {
   "name": "@aterbonus/vue-timed-progress-bar",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A Timed Progress Bar Component for Vue",
   "main": "dist/vue-timed-progress-bar.js",
   "scripts": {
