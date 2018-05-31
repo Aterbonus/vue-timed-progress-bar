@@ -1,12 +1,8 @@
 <template>
 
-    <div>
-        <slot :progress="value">
-            <div class="progress-bar">
-                <div class="progress"
-                    :style="progressStyle"></div>
-            </div>
-        </slot>
+    <div class="progress-bar">
+        <div class="progress"
+             :style="progressStyle"></div>
     </div>
 
 </template>
@@ -142,7 +138,6 @@ export default {
 </script>
 
 <style scoped>
-
 .progress-bar {
     height: 4px;
     background-color: #ea869a;
@@ -150,6 +145,6 @@ export default {
 
 .progress {
     height: 100%;
-    background-color: #CF2446;
+    background-color: #cf2446;
 }
 </style>
