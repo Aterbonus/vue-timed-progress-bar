@@ -1,11 +1,11 @@
 {
-  "name": "@aterbonus/vue-timer-progress-bar",
+  "name": "@aterbonus/vue-timed-progress-bar",
   "version": "0.0.1",
-  "description": "A Timer Progress Bar Component for Vue",
-  "main": "dist/vue-timer-progress-bar.js",
+  "description": "A Timed Progress Bar Component for Vue",
+  "main": "dist/vue-timed-progress-bar.js",
   "scripts": {
     "start": "poi src/index.js",
-    "build": "poi build src/TimerProgressBar.vue",
+    "build": "poi build src/TimedProgressBar.vue",
     "commit": "git-cz"
   },
   "author": "Gustavo Alfredo Marín Sáez (Aterbonus)",

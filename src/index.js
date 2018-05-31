@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import TimerProgressBar from './TimerProgressBar.vue'
+import TimedProgressBar from './TimedProgressBar.vue'
 
 window.vm = new Vue({
     el: '#app',
@@ -11,7 +11,7 @@ window.vm = new Vue({
     },
     render(h) {
         return h('div', [
-            h(TimerProgressBar, {
+            h(TimedProgressBar, {
                 props: {
                     value: this.progress,
                     active: this.active

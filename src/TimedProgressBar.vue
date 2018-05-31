@@ -13,7 +13,7 @@
 
 <script>
 export default {
-    name: 'vue-timer-progress-bar',
+    name: 'vue-timed-progress-bar',
     data() {
         return {
             lastTime: 0,
