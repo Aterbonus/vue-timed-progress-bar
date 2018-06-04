@@ -42,7 +42,7 @@ export default {
             type: [Number, String],
             default: 10
         },
-        rfc: {
+        raf: {
             type: Boolean,
             default: true
         },
