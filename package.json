@@ -1,26 +1,26 @@
 {
-  "name": "@aterbonus/vue-timed-progress-bar",
-  "version": "0.2.2",
-  "description": "A Timed Progress Bar Component for Vue",
-  "main": "dist/vue-timed-progress-bar.js",
-  "scripts": {
-    "start": "poi src/index.js",
-    "build": "poi build src/TimedProgressBar.vue",
-    "commit": "git-cz"
-  },
-  "author": "Gustavo Alfredo Marín Sáez (Aterbonus)",
-  "license": "ISC",
-  "devDependencies": {
-    "commitizen": "^2.10.1",
-    "cz-conventional-changelog": "^2.1.0",
-    "eslint": "^4.19.1",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-vue": "^4.5.0",
-    "poi": "^10.2.1"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+    "name": "@aterbonus/vue-timed-progress-bar",
+    "version": "0.2.3",
+    "description": "A Timed Progress Bar Component for Vue",
+    "main": "dist/vue-timed-progress-bar.js",
+    "scripts": {
+        "start": "poi src/index.js",
+        "build": "poi build src/TimedProgressBar.vue",
+        "commit": "git-cz"
+    },
+    "author": "Gustavo Alfredo Marín Sáez (Aterbonus)",
+    "license": "ISC",
+    "devDependencies": {
+        "commitizen": "^2.10.1",
+        "cz-conventional-changelog": "^2.1.0",
+        "eslint": "^4.19.1",
+        "eslint-config-prettier": "^2.9.0",
+        "eslint-plugin-vue": "^4.5.0",
+        "poi": "^10.2.1"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
     }
-  }
 }
