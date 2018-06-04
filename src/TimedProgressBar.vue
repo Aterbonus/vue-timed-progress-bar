@@ -1,7 +1,7 @@
 <template>
 
-    <div class="progress-bar">
-        <div class="progress"
+    <div class="vtpb-progress-bar">
+        <div class="vtpb-progress"
              :style="progressStyle"></div>
     </div>
 
@@ -138,12 +138,12 @@ export default {
 </script>
 
 <style scoped>
-.progress-bar {
+.vtpb-progress-bar {
     height: 4px;
     background-color: #ea869a;
 }
 
-.progress {
+.vtpb-progress {
     height: 100%;
     background-color: #cf2446;
 }
